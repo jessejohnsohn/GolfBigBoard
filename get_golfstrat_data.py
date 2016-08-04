@@ -9,7 +9,7 @@ c = conn.cursor()
 def get_first_names(full_names):  # Gives first names its own array
     holding_array = []
     for i in range(0, len(full_names)):
-        holding_array.append(full_names[i][1])
+        holding_array.append(str(full_names[i][1]).strip())
     return holding_array
 
 
@@ -23,7 +23,8 @@ def get_last_names(full_names):  # Gives last names its own array
 def get_full_names(data):  # Takes the text of the raw data and creates an array of arrays with first and last names
     golfer_name = []
     for datum in data:
-        golfer_name.append(datum.get_text())
+        x = datum.get_text()
+        golfer_name.append(x.encode('UTF8'))
     golfer_name = split_and_strip(golfer_name, ',')
     del golfer_name[127]
     return golfer_name
@@ -97,6 +98,8 @@ tournament_history = get_stat(2)
 course_fit = get_stat(4)
 similar_course = get_stat(6)
 
+print first_names
+print last_names
 print recent_performance
 print tournament_history
 print course_fit
@@ -105,19 +108,21 @@ print golfstrat_id
 
 def createGolferTable():
    c.execute('DROP TABLE IF EXISTS golfstratgolfer')
-   c.execute('CREATE TABLE IF NOT EXISTS golfstratgolfer (first_name TEXT, last_name TEXT, golfstrat_id INTEGER, course_fit INTEGER, similar_course INTEGER, tournament_history INTEGER, recent_performance INTEGER, total INTEGER)')
+   c.execute('CREATE TABLE IF NOT EXISTS golfstratgolfer (full_name TEXT, first_name TEXT, last_name TEXT, golfstrat_id INTEGER, course_fit INTEGER, similar_course INTEGER, tournament_history INTEGER, recent_performance INTEGER, total INTEGER)')
 
-def addGolfer(first_name,last_name,golfstrat_id,course_fit,similar_course,tournament_history,recent_performance,total):
-   c.execute('INSERT INTO golfstratgolfer (first_name,last_name,golfstrat_id,course_fit,similar_course,tournament_history,recent_performance,total) VALUES (?,?,?,?,?,?,?,?)',
-             (first_name,last_name,golfstrat_id,course_fit,similar_course,tournament_history,recent_performance,total))
+def addGolfer(full_name,first_name,last_name,golfstrat_id,course_fit,similar_course,tournament_history,recent_performance,total):
+   c.execute('INSERT INTO golfstratgolfer (full_name,first_name,last_name,golfstrat_id,course_fit,similar_course,tournament_history,recent_performance,total) VALUES (?,?,?,?,?,?,?,?,?)',
+             (full_name,first_name,last_name,golfstrat_id,course_fit,similar_course,tournament_history,recent_performance,total))
 
 createGolferTable()
 
 z = len(golfstrat_id)
 
 for i in range(0,z):
-    addGolfer(first_names[i],last_names[i],golfstrat_id[i],course_fit[i],similar_course[i],tournament_history[i],recent_performance[i],(golfstrat_id[i]+course_fit[i]+similar_course[i]+tournament_history[i]+recent_performance[i]))
+    addGolfer((first_names[i]+' '+last_names[i]),first_names[i],last_names[i],golfstrat_id[i],course_fit[i],similar_course[i],tournament_history[i],recent_performance[i],(golfstrat_id[i]+course_fit[i]+similar_course[i]+tournament_history[i]+recent_performance[i]))
 
 conn.commit()
 
-
+# saved formula for getting totals array
+# for i in range(0,len(golfstrat_id)):
+#     totals.append(recent_performance[i]+tournament_history[i]+course_fit[i]+similar_course[i]+golfstrat_id[i])
