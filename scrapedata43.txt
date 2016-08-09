@@ -60,7 +60,7 @@ img.emoji {
 <script src="http://golfstrat.com/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4" type="text/javascript"></script>
 <script type="text/javascript">
 /* <![CDATA[ */
-var WuWidget = {"apiKey":"3ffab52910ec1a0e","_wpnonce":"e0b32e7c9f","ajaxurl":"http:\/\/golfstrat.com\/wp-admin\/admin-ajax.php","is_admin":"","subdomain":"www"};
+var WuWidget = {"apiKey":"3ffab52910ec1a0e","_wpnonce":"1aefd3283c","ajaxurl":"http:\/\/golfstrat.com\/wp-admin\/admin-ajax.php","is_admin":"","subdomain":"www"};
 /* ]]> */
 </script>
 <script src="http://golfstrat.com/wp-content/plugins/wunderground/assets/js/widget.min.js?ver=2.1.1" type="text/javascript"></script>
@@ -172,7 +172,7 @@ body, input, textarea, .page-title span, .pingback a.url { font-family: Arial, s
 <meta content="http://golfstrat.com/golfstrat-fantasy-edge-player-comparison/" property="og:url"/>
 <meta content="get_results($externalQuery-&gt;prepare( “SELECT * FROM players WHERE ID IN (%s,%s) LIMIT 2”, $users[0], $users[1])); if(count($GLOBALS[‘players_data’]) != 2){ $DISPLAY_RESUL…" property="og:description"/>
 <meta content="2015-12-20T05:49:22+00:00" property="article:published_time"/>
-<meta content="2016-08-01T02:07:18+00:00" property="article:modified_time"/>
+<meta content="2016-08-08T04:15:26+00:00" property="article:modified_time"/>
 <meta content="GolfStrat" property="og:site_name"/>
 <meta content="https://s0.wp.com/i/blank.jpg" property="og:image"/>
 <meta content="en_US" property="og:locale"/>
@@ -304,11 +304,11 @@ body, input, textarea, .page-title span, .pingback a.url { font-family: Arial, s
 <span style="font-size: 20px; color: #008000;"><strong>GolfStrat Fantasy Edge Player Comparison</strong></span>
 <br/>
 <span style="font-size: 16px; color: #008000;"><strong>2016 
-Travelers Championship
+John Deere Classic
 </strong></span>
 <br/>
 <br/>
-<span style="font-size: 19px; color: #008000;"><strong>(✓) Robert Garrigus  vs.  Brett Stegmaier</strong></span>
+<span style="font-size: 19px; color: #008000;"><strong>(✓) John Merrick  vs.  Ryan McClintock</strong></span>
 </p>
 </center>
 <br/>
@@ -334,7 +334,7 @@ Travelers Championship
 </table>
 <br/>
 <h1><span style="color: #008000; font-size: 24px;"><strong>2016 
-Travelers Championship
+John Deere Classic
 </strong></span></h1>
 <h2><span style="color: #008000; font-size: 24px;"><strong>GolfStrat Fantasy Edge Comparison Tool</strong></span></h2>
 <br/>
@@ -352,25 +352,25 @@ Travelers Championship
 <thead>
 <tr>
 <th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>TOURNAMENT STATS</strong></center></th>
-<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Robert Garrigus</strong></center></th>
-<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Brett Stegmaier</strong></center></th>
+<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>John Merrick</strong></center></th>
+<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Ryan McClintock</strong></center></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="padding-left: 30px;">World Golf Ranking
 </td>
-<td><center># 287 </center>
+<td><center># 526 </center>
 </td>
-<td><center># 282 </center>
+<td><center># 1,491 </center>
 </td>
 </tr>
 <tr>
 <td style="padding-left: 30px;">Odds to Win
 </td>
-<td><center>210/1</center>
+<td><center></center>
 </td>
-<td><center>100/1</center>
+<td><center></center>
 </td>
 </tr>
 <tr>
@@ -378,9 +378,9 @@ Travelers Championship
 <br/>
 <span>(Last 10 Events)</span>
 </td>
-<td style="vertical-align:middle"><center>70%</center>
+<td style="vertical-align:middle"><center>50%</center>
 </td>
-<td style="vertical-align:middle"><center>60%</center>
+<td style="vertical-align:middle"><center>100%</center>
 </td>
 </tr>
 <tr>
@@ -390,15 +390,15 @@ Travelers Championship
 </td>
 <td style="text-align: center;">
 <br/>
-<span>(39) 2015</span>
+<span>MC 2015</span>
 <br/>
-<span>MC 2013</span>
+<span>(76) 2014</span>
 <br/>
-<span>(68) 2010</span>
+<span>(54) 2012</span>
 <br/>
-<span> </span>
+<span>(59) 2011</span>
 <br/>
-<span> </span>
+<span>(39) 2010</span>
 <br/>
 <span> </span>
 <br/>
@@ -406,9 +406,9 @@ Travelers Championship
 </tr></tbody></table></center>
 <td style="text-align: center;">
 <br/>
-<span>MC 2010</span>
+<span>No Course </span>
 <br/>
-<span> </span>
+<span>History </span>
 <br/>
 <span> </span>
 <br/>
@@ -427,25 +427,25 @@ Travelers Championship
 </td>
 <td style="padding-left: 50px;">
 <br/>
-<span>MC RBC Canadian Open</span>
+<span>(20) Barbasol Champ.</span>
 <br/>
-<span>(11) Barbasol Champ.</span>
+<span>MC Barracuda</span>
 <br/>
-<span>(27) Barracuda</span>
+<span>(18) St. Jude Classic</span>
 <br/>
-<span>(8) Quicken Loans</span>
+<span>(63) Byron Nelson</span>
 <br/>
 <br/>
 </td>
 <td style="padding-left: 50px;">
 <br/>
-<span>(49) RBC Canadian Open</span>
+<span> </span>
 <br/>
-<span>(44) Barbasol Champ.</span>
+<span> </span>
 <br/>
-<span>MC Barracuda</span>
+<span> </span>
 <br/>
-<span>MC Quicken Loans</span>
+<span> </span>
 <br/>
 <br/>
 </td>
@@ -470,71 +470,71 @@ Travelers Championship
 <thead>
 <tr>
 <th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>COURSE FIT RANKINGS</strong></center></th>
-<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Robert Garrigus</strong></center></th>
-<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Brett Stegmaier</strong></center></th>
+<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>John Merrick</strong></center></th>
+<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Ryan McClintock</strong></center></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="padding-left: 30px;"> #1 – 
-Appr 150 – 175 yards
+Proximity to Hole ARG
 </td>
-<td><center> 42 </center>
+<td><center> 58 </center>
 </td>
-<td><center> 36 </center>
+<td><center> </center>
 </td>
 </tr>
 <tr>
 <td style="padding-left: 30px;">#2 – 
-Appr 125 – 150 yards
+Greens in Regulation
 </td>
-<td><center> 10 </center>
+<td><center> 8 </center>
 </td>
-<td><center> 81 </center>
+<td><center> </center>
 </td>
 </tr>
 <tr>
 <td style="padding-left: 30px;">#3 – 
 Proximity
 </td>
-<td><center> 59 </center>
+<td><center> 23 </center>
 </td>
-<td><center> 51 </center>
+<td><center> </center>
 </td>
 </tr>
 <tr>
 <td style="padding-left: 30px;">#4 – 
-Total Driving
+Strokes Gained Putting
 </td>
-<td><center> 58 </center>
+<td><center> 106 </center>
 </td>
-<td><center> 10 </center>
+<td><center> </center>
 </td>
 </tr>
 <tr>
 <td style="padding-left: 30px;">#5 – 
-Greens in Regulation
+Scrambling
 </td>
-<td><center> 45 </center>
+<td><center> 101 </center>
 </td>
-<td><center> 50 </center>
+<td><center> </center>
 </td>
 </tr>
 <tr>
 <td style="padding-left: 30px;">#6 – 
-Appr 175 – 200 yards
+Total Driving
 </td>
-<td><center> 2 </center>
+<td><center> 19 </center>
 </td>
-<td><center> 110 </center>
+<td><center> </center>
 </td>
 </tr>
 <tr>
 <td style="font-size: 14px; padding-left: 30px;"> <strong>COURSE FIT RANKING</strong>
 </td>
-<td style="font-size: 14px;"><center><strong> 21 </strong></center>
+<td style="font-size: 14px;"><center><strong> 19 </strong></center>
 </td>
-<td style="font-size: 14px;"><center><strong> 37 </strong></center>
+<td style="font-size: 14px;"><center><strong> 107 </strong></center>
 </td>
 </tr>
 </tbody>
@@ -558,8 +558,8 @@ Appr 175 – 200 yards
 <thead>
 <tr>
 <th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>SIMILAR C/F RANKS</strong></center></th>
-<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Robert Garrigus</strong></center></th>
-<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Brett Stegmaier</strong></center></th>
+<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>John Merrick</strong></center></th>
+<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Ryan McClintock</strong></center></th>
 </tr>
 </thead>
 <tbody>
@@ -571,35 +571,35 @@ Weakest
 )</span>
 </center>
 </td>
-<td style="vertical-align: middle;"><center> 126 </center>
+<td style="vertical-align: middle;"><center> 77 </center>
 </td>
-<td style="vertical-align: middle;"><center> 127 </center>
+<td style="vertical-align: middle;"><center> 139 </center>
 </td>
 </tr>
 <tr>
 <td><center><span>Course Distance</span>
 <br/>
 <span>(
-Medium-Short
+Medium
 )</span>
 </center>
 </td>
-<td style="vertical-align: middle;"><center> 112 </center>
+<td style="vertical-align: middle;"><center> 116 </center>
 </td>
-<td style="vertical-align: middle;"><center> 126 </center>
+<td style="vertical-align: middle;"><center> 139 </center>
 </td>
 </tr>
 <tr>
 <td><center>Course Par</center></td></tr></tbody></table></center>
 <br/>
 <span>(
-Par 70
+Par 71
 )</span>
 
 
-<td style="vertical-align: middle;"><center> 85 </center>
+<td style="vertical-align: middle;"><center> 117 </center>
 </td>
-<td style="vertical-align: middle;"><center> 90 </center>
+<td style="vertical-align: middle;"><center> 137 </center>
 </td>
 
 <tr>
@@ -619,13 +619,13 @@ Par 70
 <td><center><span>Course Difficulty</span>
 <br/>
 <span>(
-Medium-Easy
+Easy
 )</span>
 </center>
 </td>
-<td style="vertical-align: middle;"><center> 125 </center>
+<td style="vertical-align: middle;"><center> 108 </center>
 </td>
-<td style="vertical-align: middle;"><center> 131 </center>
+<td style="vertical-align: middle;"><center> 138 </center>
 </td>
 </tr>
 <tr>
@@ -636,9 +636,9 @@ Bentgrass
 )</span>
 </center>
 </td>
-<td style="vertical-align: middle;"><center> 87 </center>
+<td style="vertical-align: middle;"><center> 96 </center>
 </td>
-<td style="vertical-align: middle;"><center> 1 </center>
+<td style="vertical-align: middle;"><center> 135 </center>
 </td>
 </tr>
 <tr>
@@ -649,30 +649,30 @@ Medium-Slow
 )</span>
 </center>
 </td>
-<td style="vertical-align: middle;"><center> 91 </center>
+<td style="vertical-align: middle;"><center> 75 </center>
 </td>
-<td style="vertical-align: middle;"><center> 62 </center>
+<td style="vertical-align: middle;"><center> 139 </center>
 </td>
 </tr>
 <tr>
 <td><center><span>Course Designer</span>
 <br/>
 <span>(
-Ross
+
 )</span>
 </center>
 </td>
-<td style="vertical-align: middle;"><center> 56 </center>
+<td style="vertical-align: middle;"><center> </center>
 </td>
-<td style="vertical-align: middle;"><center> 123 </center>
+<td style="vertical-align: middle;"><center> </center>
 </td>
 </tr>
 <tr>
 <td style="font-size: 14px;"><center><strong>SIMILAR COURSE/FIELD RANKING</strong></center>
 </td>
-<td style="font-size: 14px; vertical-align:middle"><center><strong> 102 </strong></center>
+<td style="font-size: 14px; vertical-align:middle"><center><strong> 101 </strong></center>
 </td>
-<td style="font-size: 14px; vertical-align:middle"><center><strong> 137 </strong></center>
+<td style="font-size: 14px; vertical-align:middle"><center><strong> 104 </strong></center>
 </td>
 </tr>
 
@@ -696,41 +696,41 @@ Ross
 <thead>
 <tr>
 <th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>SUMMARY RANKINGS</strong></center></th>
-<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Robert Garrigus</strong></center></th>
-<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Brett Stegmaier</strong></center></th>
+<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>John Merrick</strong></center></th>
+<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Ryan McClintock</strong></center></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Recent Performance Ranking
 </td>
-<td><center> 27 </center>
+<td><center> 33 </center>
 </td>
-<td><center> 100 </center>
+<td><center> </center>
 </td>
 </tr>
 <tr>
 <td>Tournament History Ranking
 </td>
-<td><center> 51 </center>
+<td><center> 74 </center>
 </td>
-<td><center> 80 </center>
+<td><center> 90 </center>
 </td>
 </tr>
 <tr>
 <td>Course Fit Ranking
 </td>
-<td><center> 21 </center>
+<td><center> 19 </center>
 </td>
-<td><center> 37 </center>
+<td><center> 107 </center>
 </td>
 </tr>
 <tr>
 <td>Similar Course &amp; Field Ranking
 </td>
-<td><center> 102 </center>
+<td><center> 101 </center>
 </td>
-<td><center> 137 </center>
+<td><center> 104 </center>
 </td>
 </tr>
 <tr>
@@ -738,7 +738,7 @@ Ross
 </td>
 <td style="font-size: 14px; vertical-align:middle"><center><strong>43</strong></center>
 </td>
-<td style="font-size: 14px; vertical-align:middle"><center><strong>102</strong></center>
+<td style="font-size: 14px; vertical-align:middle"><center><strong></strong></center>
 </td>
 </tr>
 </tbody>
@@ -762,65 +762,65 @@ Ross
 <thead>
 <tr>
 <th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>OTHER STATS</strong></center></th>
-<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Robert Garrigus</strong></center></th>
-<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Brett Stegmaier</strong></center></th>
+<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>John Merrick</strong></center></th>
+<th #000000;”="" 12px;="" color:="" style="“font-size:"><center><strong>Ryan McClintock</strong></center></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Round 1 Ranking
 </td>
-<td><center> 106 </center>
+<td><center> 103 </center>
 </td>
-<td><center> 42 </center>
+<td><center> 135 </center>
 </td>
 </tr>
 <tr>
 <td>Round 2 Ranking
 </td>
-<td><center> 129 </center>
+<td><center> 96 </center>
 </td>
-<td><center> 120 </center>
+<td><center> 135 </center>
 </td>
 </tr>
 <tr>
 <td>Round 3 Ranking
 </td>
-<td><center> 134 </center>
+<td><center> 94 </center>
 </td>
-<td><center> 113 </center>
+<td><center> 134 </center>
 </td>
 </tr>
 <tr>
 <td>Round 4 Ranking
 </td>
-<td><center> 62 </center>
+<td><center> 69 </center>
 </td>
-<td><center> 86 </center>
+<td><center> 133 </center>
 </td>
 </tr>
 <tr>
 <td>Windy Weather Ranking
 </td>
-<td><center> 132 </center>
+<td><center> 91 </center>
 </td>
-<td><center> 79 </center>
+<td><center> 139 </center>
 </td>
 </tr>
 <tr>
 <td>Rainy Weather Ranking
 </td>
-<td><center> 63 </center>
+<td><center> 82 </center>
 </td>
-<td><center> 122 </center>
+<td><center> 134 </center>
 </td>
 </tr>
 <tr>
 <td> Cold Weather Ranking
 </td>
-<td><center> 105 </center>
+<td><center> 61 </center>
 </td>
-<td><center> 65 </center>
+<td><center> 107 </center>
 </td>
 </tr>
 </tbody>
@@ -983,7 +983,7 @@ Ross
 <script src="http://golfstrat.com/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4" type="text/javascript"></script>
 <script src="http://golfstrat.com/wp-includes/js/jquery/ui/effect-shake.min.js?ver=1.11.4" type="text/javascript"></script>
 <script src="http://golfstrat.com/wp-content/plugins/metro-share/assets/metroshare.js" type="text/javascript"></script>
-<script src="http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201631" type="text/javascript"></script>
+<script src="http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201632" type="text/javascript"></script>
 <script src="http://s.gravatar.com/js/gprofiles.js?ver=2016Augaa" type="text/javascript"></script>
 <script type="text/javascript">
 /* <![CDATA[ */
@@ -999,7 +999,7 @@ var WPGroHo = {"my_hash":""};
 		jQuery('html, body').animate({scrollTop:target_offset}, 800);
 	});
 </script>
-<script async="" defer="" src="http://stats.wp.com/e-201631.js" type="text/javascript"></script>
+<script async="" defer="" src="http://stats.wp.com/e-201632.js" type="text/javascript"></script>
 <script type="text/javascript">
 	_stq = window._stq || [];
 	_stq.push([ 'view', {v:'ext',j:'1:3.9.7',blog:'48049722',post:'9619',tz:'-4',srv:'golfstrat.com'} ]);
