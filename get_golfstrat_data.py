@@ -79,7 +79,11 @@ def get_stat(indice):
         for i in x:
             holding1.append(str(i).strip('<center> '))
         for j in holding1:
-            holding2.append(str(j).strip(' </'))
+            z = str(j).strip(' </')
+            if z == '':
+                z = 150
+            holding2.append(z)
+        #print holding2
         holding3.append(int(holding2[indice]))
     return holding3
 
