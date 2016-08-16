@@ -1,0 +1,462 @@
+
+<!DOCTYPE html>
+
+<!--[if IE 6]> <html id="ie6" class="no-js" lang="en-US"> <![endif]-->
+<!--[if IE 7]> <html id="ie7" class="no-js" lang="en-US"> <![endif]-->
+<!--[if IE 8]> <html id="ie8" class="no-js" lang="en-US"> <![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, user-scalable=2" name="viewport">
+<title>  GolfStrat Fantasy Edge Player Comparison </title>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+<link href="http://golfstrat.com/wp-content/themes/admired/style.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/xmlrpc.php" rel="pingback"/>
+<link href="http://golfstrat.com/feed/" rel="alternate" title="GolfStrat » Feed" type="application/rss+xml"/>
+<link href="http://golfstrat.com/comments/feed/" rel="alternate" title="GolfStrat » Comments Feed" type="application/rss+xml"/>
+<link href="http://golfstrat.com/golfstrat-fantasy-edge-player-comparison/feed/" rel="alternate" title="GolfStrat » GolfStrat Fantasy Edge Player Comparison Comments Feed" type="application/rss+xml"/>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/golfstrat.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link href="http://golfstrat.com/wp-includes/css/dashicons.min.css?ver=4.4.4" id="dashicons-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/wunderground/assets/css/wunderground.css?ver=2.1.1" id="wunderground-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/floating-social-media-icon/css/style.css?ver=4.4.4" id="acx_fsmi_styles-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/form-maker/css/jquery-ui-1.10.3.custom.css?ver=4.4.4" id="jquery-ui-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/form-maker/css/jquery-ui-spinner.css?ver=4.4.4" id="jquery-ui-spinner-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/form-maker/css/calendar-jos.css?ver=4.4.4" id="form_maker_calendar-jos-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/form-maker/css/form_maker_frontend.css?ver=4.4.4" id="form_maker_frontend-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/gallery-plugin/css/frontend_style.css?ver=4.4.4" id="gllr_stylesheet-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/gallery-plugin/fancybox/jquery.fancybox-1.3.4.css?ver=4.4.4" id="gllr_fancybox_stylesheet-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/maxbuttons/assets/libraries/font-awesome/css/font-awesome.min.css?ver=4.4.4" id="mbpro-font-awesome-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/metro-share/assets/metroshare.css?ver=4.4.4" id="metroshare-css-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/widgets-extended/style.css?ver=4.4.4" id="style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/easy-facebook-likebox/public/assets/css/public.css?ver=4.2" id="easy-facebook-likebox-plugin-styles-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/easy-facebook-likebox/public/assets/popup/magnific-popup.css?ver=4.2" id="easy-facebook-likebox-popup-styles-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com?sccss=1&amp;ver=4.4.4" id="sccss_style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://golfstrat.com/wp-content/plugins/jetpack/css/jetpack.css?ver=3.9.7" id="jetpack_css-css" media="all" rel="stylesheet" type="text/css"/>
+<script src="http://golfstrat.com/wp-includes/js/jquery/jquery.js?ver=1.11.3" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4" type="text/javascript"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WuWidget = {"apiKey":"3ffab52910ec1a0e","_wpnonce":"1aefd3283c","ajaxurl":"http:\/\/golfstrat.com\/wp-admin\/admin-ajax.php","is_admin":"","subdomain":"www"};
+/* ]]> */
+</script>
+<script src="http://golfstrat.com/wp-content/plugins/wunderground/assets/js/widget.min.js?ver=2.1.1" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/themes/admired/js/modernizr-2.0.6.js?ver=2.0.6" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/themes/admired/js/superfish/hoverIntent.js?ver=4.4.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/themes/admired/js/superfish/superfish.js?ver=4.4.4" type="text/javascript"></script>
+<script src="https://maps.google.com/maps/api/js?sensor=false&amp;ver=4.4.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/form-maker/js/if_gmap_front_end.js?ver=4.4.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/form-maker/js/jelly.min.js?ver=4.4.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/form-maker/js/file-upload.js?ver=4.4.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/form-maker/js/calendar/calendar.js?ver=4.4.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/form-maker/js/calendar/calendar_function.js?ver=4.4.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/gallery-plugin/fancybox/jquery.mousewheel-3.0.4.pack.js?ver=4.4.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/gallery-plugin/fancybox/jquery.fancybox-1.3.4.pack.js?ver=4.4.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/gallery-plugin/js/frontend_script.js?ver=4.4.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/itro-popup/scripts/itro-scripts.js?ver=4.4.4" type="text/javascript"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var mb_ajax = {"ajaxurl":"http:\/\/golfstrat.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script src="http://golfstrat.com/wp-content/plugins/maxbuttons/js/front.js?ver=1" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/easy-facebook-likebox/public/assets/popup/jquery.magnific-popup.min.js?ver=4.2" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/easy-facebook-likebox/public/assets/js/jquery.cookie.js?ver=4.2" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/easy-facebook-likebox/public/assets/js/public.js?ver=4.2" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.4.9" type="text/javascript"></script>
+<link href="http://golfstrat.com/wp-json/" rel="https://api.w.org/"/>
+<link href="http://golfstrat.com/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+<link href="http://golfstrat.com/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+<link href="http://golfstrat.com/2015-rsm-classic-power-rankings/" rel="prev" title="2015 RSM Classic Power Rankings"/>
+<link href="http://golfstrat.com/golfstrat-fantasy-edge/" rel="next" title="GolfStrat Fantasy Edge"/>
+<meta content="WordPress 4.4.4" name="generator"/>
+<link href="http://golfstrat.com/golfstrat-fantasy-edge-player-comparison/" rel="canonical"/>
+<link href="http://wp.me/p3fBVw-2v9" rel="shortlink"/>
+<link href="http://golfstrat.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fgolfstrat.com%2Fgolfstrat-fantasy-edge-player-comparison%2F" rel="alternate" type="application/json+oembed"/>
+<link href="http://golfstrat.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fgolfstrat.com%2Fgolfstrat-fantasy-edge-player-comparison%2F&amp;format=xml" rel="alternate" type="text/xml+oembed"/>
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"hHIZl1aU8KL3O7", domain:"golfstrat.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img alt="" height="1" src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=hHIZl1aU8KL3O7" style="display:none" width="1"/></noscript>
+<!-- End Alexa Certify Javascript -->
+<!-- Starting Styles For Social Media Icon From Acurax International www.acurax.com -->
+<style type="text/css">
+#divBottomRight img 
+{
+width: 48px; 
+}
+#divBottomRight 
+{
+min-width:0px; 
+position: static; 
+}
+</style>
+<!-- Ending Styles For Social Media Icon From Acurax International www.acurax.com -->
+<style type="text/css">
+				.gllr_image_row {
+					clear: both;
+				}
+			</style>
+<!-- Start ios -->
+<script type="text/javascript">
+			(function($){
+				$(document).ready( function() {
+					$( '#fancybox-overlay' ).css({
+						'width' : $(document).width()
+					});
+				});
+			})(jQuery);
+		</script>
+<!-- End ios -->
+<link href="http://golfstrat.com/wp-content/plugins/google-plus-one-button-by-kms/gpo_plusone.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="//i0.wp.com" rel="dns-prefetch">
+<link href="//i1.wp.com" rel="dns-prefetch">
+<link href="//i2.wp.com" rel="dns-prefetch">
+<style type="text/css">img#wpstats{display:none}</style>
+<style type="text/css">
+a { color: #008000;}
+a:visited{ color: #008000;}
+a:hover{ color: #013B03;}
+.entry-title a:hover,.entry-title a:focus,.entry-title a:active{ color: #013B03;}
+.calendar > .day{ color: #ffffff;}
+body, input, textarea, .page-title span, .pingback a.url { font-family: Arial, sans-serif;}
+#site-title, #site-description { font-family: Garamond, serif;}
+#header-logo{ background: url(http://golfstrat.com/wp-content/uploads/2013/02/077a-e1361978319424-1024x112.jpg) no-repeat;}
+#nav-bottom-wrap {background: #013B03; border: 1px solid #013B03;} #nav-menu2 .menu-header li, div.menu li { border-right: 2px groove #013B03;} #nav-menu2 {text-shadow: none;}
+#nav-menu2 li:hover > a,#nav-menu2 a:focus {-ms-filter: 'progid:DXImageTransform.Microsoft.gradient(enabled=false)'; background: #013B03;}
+#nav-menu2 ul ul a {background: #013B03; border-bottom: 2px groove #013B03;}
+#nav-menu2 ul ul :hover > a {background: #013B03;}
+#nav-menu .menu-header,#nav-menu2 .menu-header, div.menu {font-weight: normal;}
+#nav-menu a {color: #013B03;}
+.sf-menu a.sf-with-ul { padding-right: 2.25em;} 
+#nav-menu2 a{ line-height: 33px;} 
+#site-title a { color: #013B03;}
+#site-title a:hover, #site-title a:focus, #site-title a:active { color: #013B03;}
+#site-description{ color: #ffffff;}
+#nav-menu2, #nav-menu2 .menu-header, div.menu { width: 91.61%; max-width: 1050px; margin-left: 10px; }
+.widget-title{ background: #dfe1e8;}
+.widget-title{ color: #013b03;}
+</style><!-- end of style section -->
+<script>
+	jQuery(function(){jQuery('ul.sf-menu').superfish({animation: {opacity:'show',height:'show'}, speed: 300});});
+	</script>
+<!-- End of Theme options -->
+<!-- Jetpack Open Graph Tags -->
+<meta content="article" property="og:type"/>
+<meta content="GolfStrat Fantasy Edge Player Comparison" property="og:title"/>
+<meta content="http://golfstrat.com/golfstrat-fantasy-edge-player-comparison/" property="og:url"/>
+<meta content="get_results($externalQuery-&gt;prepare( “SELECT * FROM players WHERE ID IN (%s,%s) LIMIT 2”, $users[0], $users[1])); if(count($GLOBALS[‘players_data’]) != 2){ $DISPLAY_RESUL…" property="og:description"/>
+<meta content="2015-12-20T05:49:22+00:00" property="article:published_time"/>
+<meta content="2016-08-08T04:15:26+00:00" property="article:modified_time"/>
+<meta content="GolfStrat" property="og:site_name"/>
+<meta content="https://s0.wp.com/i/blank.jpg" property="og:image"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="summary" name="twitter:card"/>
+<!-- Google Analytics Tracking by Google Analyticator 6.4.9: http://www.videousermanuals.com/google-analyticator/ -->
+<script type="text/javascript">window.google_analytics_uacct = "UA-38729095-1";</script>
+<script type="text/javascript">
+    var analyticsFileTypes = [''];
+    var analyticsSnippet = 'enabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+  
+	_gaq.push(['_setAccount', 'UA-38729095-1']);
+    _gaq.push(['_addDevId', 'i9k95']); // Google Analyticator App ID with Google
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<script>window.adthrive = window.adthrive || {};window.adthrive.cmd = window.adthrive.cmd || [];(function() {  var script = document.createElement('script');  script.async = true;  script.type = 'text/javascript';  script.src = 'http://ads.adthrive.com/sites/57192fbd4a6cf08a18049e73/ads.min.js';  var node = document.getElementsByTagName('script')[0];  node.parentNode.insertBefore(script, node);})();</script>
+</link></link></link></meta></head>
+<body class="single single-post postid-9619 single-format-standard gllr_admired two-column left-sidebar single-author">
+<div id="head-wrapper">
+<header id="branding" role="banner">
+<div class="clearfix" id="header-group">
+<div id="header-logo">
+<hgroup>
+<h1 id="site-title"><span><a href="http://golfstrat.com/" rel="home" title="GolfStrat">GolfStrat</a></span></h1>
+<h2 id="site-description">Expert Fantasy Golf Advice</h2>
+</hgroup>
+</div>
+</div>
+</header><!-- #branding -->
+</div><!-- #head-wrapper -->
+<div class="hfeed" id="page">
+<div id="nav-bottom-menu">
+<div id="nav-bottom-wrap">
+<nav id="nav-menu2" role="navigation">
+<h3 class="assistive-text">Main menu</h3>
+<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+<div class="menu-header"><ul class="sf-menu" id="menu-top-menu"><li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12547" id="menu-item-12547"><a href="http://golfstrat.com/golfstrat-player-profiles/">Player Profiles *NEW*</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-11981" id="menu-item-11981"><a href="http://golfstrat.com/golfstrat-fantasy-edge/">Fantasy Edge</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5770" id="menu-item-5770"><a href="http://golfstrat.com/tag/yahoo-fantasy-golf-expert-picks/">PGA Fantasy Golf</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5769" id="menu-item-5769"><a href="http://golfstrat.com/tag/european-tour-fantasy-picks/">Euro Fantasy Golf</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-101" id="menu-item-101"><a href="http://golfstrat.com/category/golf-strategy/">Golf Strategy</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-634" id="menu-item-634"><a href="http://golfstrat.com/category/golf-tournaments/">Tournament Golf</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-708" id="menu-item-708"><a href="http://golfstrat.com/category/golf-tournaments/golf-tournament-preparation-golf-tournaments/">Tournament Preparation</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-633" id="menu-item-633"><a href="http://golfstrat.com/category/golf-tournaments/junior-golf/">Junior Golf</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-117" id="menu-item-117"><a href="http://golfstrat.com/category/golf-tournaments/college-golf/">College Golf</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-118" id="menu-item-118"><a href="http://golfstrat.com/category/golf-tournaments/college-golf/golf-scholarships/">Golf Scholarships</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-635" id="menu-item-635"><a href="http://golfstrat.com/category/golf-tournaments/professional-golf/">Professional Golf</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-722" id="menu-item-722"><a href="http://golfstrat.com/category/golf-tournaments/professional-golf-news-views-reviews-pga-tour-lpga-tour/">Pro Golf News &amp; Views</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-114" id="menu-item-114"><a href="http://golfstrat.com/category/golf-strategy/course-management/">Course Management</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-115" id="menu-item-115"><a href="http://golfstrat.com/category/golf-strategy/golf-improvement/">Golf Improvement</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-116" id="menu-item-116"><a href="http://golfstrat.com/category/golf-strategy/golf-instruction/">Golf Instruction</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-639" id="menu-item-639"><a href="http://golfstrat.com/category/golf-swing/">Golf Swing</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-110" id="menu-item-110"><a href="http://golfstrat.com/category/golf-swing/golf-driving/">Driving</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-112" id="menu-item-112"><a href="http://golfstrat.com/category/golf-swing/iron-play/">Iron Play</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-640" id="menu-item-640"><a href="http://golfstrat.com/category/golf-swing/wedge-play-golf-swing/">Wedge Play</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-641" id="menu-item-641"><a href="http://golfstrat.com/category/golf-short-game/">Short Game</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-642" id="menu-item-642"><a href="http://golfstrat.com/category/golf-short-game/golf-bunker-play/">Bunker Play</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-109" id="menu-item-109"><a href="http://golfstrat.com/category/golf-short-game/golf-chipping/">Chipping</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-643" id="menu-item-643"><a href="http://golfstrat.com/category/golf-short-game/golf-pitching/">Pitching</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-113" id="menu-item-113"><a href="http://golfstrat.com/category/golf-short-game/golf-putting/">Putting</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-644" id="menu-item-644"><a href="http://golfstrat.com/category/golf-difficult-conditions-situations/">Difficult Conditions &amp; Situations</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-645" id="menu-item-645"><a href="http://golfstrat.com/category/golf-difficult-conditions-situations/golf-cold-weather/">Cold Weather</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-646" id="menu-item-646"><a href="http://golfstrat.com/category/golf-difficult-conditions-situations/golf-heat-hot-weather/">Hot Weather</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-647" id="menu-item-647"><a href="http://golfstrat.com/category/golf-difficult-conditions-situations/golf-rain-rainy-weather/">Rainy Weather</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-649" id="menu-item-649"><a href="http://golfstrat.com/category/golf-difficult-conditions-situations/golf-windy-conditions/">Windy Conditions</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-648" id="menu-item-648"><a href="http://golfstrat.com/category/golf-difficult-conditions-situations/golf-trouble-lies-difficult-shots/">Trouble Lies and Difficult Shots</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-348" id="menu-item-348"><a href="http://golfstrat.com/category/mental-game/">Mental Game</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-637" id="menu-item-637"><a href="http://golfstrat.com/category/mental-game/golf-mental-toughness-training/">Mental Toughness</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-638" id="menu-item-638"><a href="http://golfstrat.com/category/mental-game/golf-pre-shot-routine/">Pre-Shot Routine</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12885" id="menu-item-12885"><a href="http://golfstrat.com/golfstrat-testimonials/">User Victories!</a></li>
+</ul></div> </nav><!-- #nav-menu2 -->
+</div>
+</div> <div id="main">
+<div id="primary">
+<div id="content" role="main">
+<article class="post-9619 post type-post status-publish format-standard hentry category-fantasy-advice category-fantasy-golf-advice category-golfstrat category-pga-tour-fantasy-advice" id="post-9619">
+<nav id="nav-single">
+<h3 class="assistive-text">Post navigation</h3>
+<span class="nav-previous"><a href="http://golfstrat.com/2015-rsm-classic-power-rankings/" rel="prev"><span class="meta-nav">←</span> Previous</a></span>
+<span class="nav-next"><a href="http://golfstrat.com/golfstrat-fantasy-edge/" rel="next">Next <span class="meta-nav">→</span></a></span>
+</nav><!-- #nav-single -->
+<header class="entry-header">
+<h1 class="entry-title">GolfStrat Fantasy Edge Player Comparison</h1>
+<div class="entry-meta">
+<span class="sep">Posted on </span><a href="http://golfstrat.com/golfstrat-fantasy-edge-player-comparison/" rel="bookmark" title="12:49 AM"><time class="entry-date" datetime="2015-12-20T00:49:22+00:00" pubdate="">December 20, 2015</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://golfstrat.com/author/rice271/" rel="author" title="View all posts by golfstrat">golfstrat</a></span></span> </div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+<div class="entry-content">
+<table>
+<colgroup><col span="1" style="width: 65%;"></col> <col span="1" style="width: 35%;"></col></colgroup>
+<tbody>
+<tr>
+<td style="vertical-align: middle;">
+<center>
+<p>
+<span style="font-size: 16px; color: #008000;"><strong>Before comparing golfer statistics, please select two players from the following page:</strong></span>
+</p>
+<a href="http://golfstrat.com/golfstrat-fantasy-edge/" onclick="ga('send', 'event', 'Links', 'click', 'http://golfstrat.com/golfstrat-fantasy-edge/');">
+<u><span style="font-size: 20px; color: #008000;"><strong>GolfStrat Fantasy Edge</strong></span></u>
+</a>
+</center>
+<br/>
+<center>
+<br/>
+<br/>
+</center>
+</td>
+<td style="vertical-align: middle;">
+<center><style>
+.vertical-ad-1a { width: 300px; height: 250px; }
+@media(min-width: 500px) { .vertical-ad-1a { width: 300px; height: 250px; } }
+@media(min-width: 800px) { .vertical-ad-1a { width: 300px; height: 250px; } }
+</style>
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Vertical Ad #1A -->
+<ins class="adsbygoogle vertical-ad-1a" data-ad-client="ca-pub-2035427830377223" data-ad-slot="5510932173" style="display:inline-block"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center>
+</td>
+</tr></tbody>
+</table>
+<br/>
+<br/>
+</div></article></div></div></div></div></body></html>
+
+<div class="metroshare">
+<h4 class="share-prefix"></h4>
+<ul class="metro-tabs"><li class="metroshare-twitter"><a href="https://twitter.com/share?url=http%3A%2F%2Fgolfstrat.com%2Fgolfstrat-fantasy-edge-player-comparison%2F&amp;via&amp;text" rel="nofollow"><span class="icon"></span>Twitter</a></li><li class="metroshare-email"><a href="http://api.addthis.com/oexchange/0.8/forward/email/offer?note&amp;url=http%3A%2F%2Fgolfstrat.com%2Fgolfstrat-fantasy-edge-player-comparison%2F" rel="nofollow"><span class="icon"></span>Email</a></li><li class="metroshare-google-plus"><a href="https://plus.google.com/share?url=http%3A%2F%2Fgolfstrat.com%2Fgolfstrat-fantasy-edge-player-comparison%2F" rel="nofollow"><span class="icon"></span>Google+</a></li><li class="metroshare-linkedin"><a href="http://www.linkedin.com/shareArticle?title=GolfStrat+Fantasy+Edge+Player+Comparison&amp;url=http%3A%2F%2Fgolfstrat.com%2Fgolfstrat-fantasy-edge-player-comparison%2F&amp;mini=1" rel="nofollow"><span class="icon"></span>LinkedIn</a></li></ul>
+</div> <!-- .entry-content -->
+<footer class="entry-meta" style="clear:both;">
+		This entry was posted in <a href="http://golfstrat.com/category/fantasy-advice/" rel="category tag">Fantasy Advice</a>, <a href="http://golfstrat.com/category/golf-lifestyle/fantasy-golf-advice/" rel="category tag">Fantasy Golf Advice</a>, <a href="http://golfstrat.com/category/golfstrat/" rel="category tag">GolfStrat</a>, <a href="http://golfstrat.com/category/fantasy-advice/pga-tour-fantasy-advice/" rel="category tag">PGA Tour Fantasy Advice</a> by <a href="http://golfstrat.com/author/rice271/">golfstrat</a>. Bookmark the <a href="http://golfstrat.com/golfstrat-fantasy-edge-player-comparison/" rel="bookmark" title="Permalink to GolfStrat Fantasy Edge Player Comparison">permalink</a>.		
+			</footer><!-- .entry-meta -->
+<!-- #post-9619 -->
+<!-- #content -->
+<!-- #primary -->
+<div class="widget-area" id="tertiary" role="complementary">
+<aside class="widget widget_text" id="text-16"><h3 class="widget-title">GolfStrat</h3> <div class="textwidget"><a href="http://golfstrat.com/wp-content/uploads/2016/07/Vertical-Million-Dollar-Win.jpg" rel="attachment wp-att-12858"><img <="" a="" alt="Vertical Million Dollar Win" height="442" src="http://golfstrat.com/wp-content/uploads/2016/07/Vertical-Million-Dollar-Win.jpg" width="179">
+<u><center><span style="font-size: 14px; color: #RRGGBB;"><strong><a href="https://twitter.com/GolfStrat">GolfStrat Twitter Account</a></strong></span></center></u>
+<br/>
+<hr/>
+<strong><span style="font-size: 12px;">Providing you with the right data to win your fantasy golf leagues or DraftKings games.</span>
+<br/>
+<span style="font-size: 12px;"> - more data</span>
+<br/>
+<span style="font-size: 12px;"> - better insights</span>
+<br/>
+<span style="font-size: 12px;"> - innovative analytics</span>
+<br/>
+<span style="font-size: 12px;"> - competitive golf experience</span>
+</strong>
+<br/>
+<br/>
+<hr/>
+<br/>
+<center>
+<span style="font-size: 12px; color: #008000;"><strong>Consider supporting GolfStrat.</strong></span>
+<br/>
+<span style="font-size: 12px; color: #008000;"><strong>Help keep our site strong!</strong></span>
+</center></img></a></div></aside></div>
+<br/>
+<br/>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input name="cmd" type="hidden" value="_s-xclick">
+<input name="hosted_button_id" type="hidden" value="LCEN275HLRTSU">
+<input alt="PayPal - The safer, easier way to pay online!" border="0" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" type="image">
+<img alt="" border="0" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1">
+</img></input></input></input></form>
+
+<br/>
+<span style="font-size: 12px; color: #008000;"><strong>As a thanks to our supporters, we hope to provide them with a special fantasy insider guide that shows course history and course fit by tournament for certain players.</strong></span>
+
+<br/>
+<br/>
+<hr/>
+<br/>
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:180px;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//golfstrat.us9.list-manage.com/subscribe/post?u=d563766cf9dd108267fcb3f2b&amp;id=437c933177" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+<div id="mc_embed_signup_scroll">
+<label for="mce-EMAIL">Subscribe to our Weekly Pick Newsletter</label>
+<input class="email" id="mce-EMAIL" name="EMAIL" placeholder="email address" required="" type="email" value="">
+<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+<div style="position: absolute; left: -5000px;"><input name="b_d563766cf9dd108267fcb3f2b_437c933177" tabindex="-1" type="text" value=""/></div>
+<div class="clear"><input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe"/></div>
+</input></div>
+</form>
+</div>
+<!--End mc_embed_signup--></link>
+
+<!-- #tertiary .widget-area -->
+<!-- #main -->
+<!-- #page -->
+<footer class="clearfix" id="footer" role="contentinfo">
+<section class="clearfix" id="colophon">
+<div id="top-scroll">
+<a class="scroll" href="#admired-top" title="Scroll to Top"><div id="scroll-top"></div></a>
+</div>
+<div class="one" id="supplementary">
+<div class="widget-area" id="second" role="complementary">
+<aside class="widget widget_text" id="text-20"> <div class="textwidget"><strong><span style="font-size: 14px; color: #008000;"><a href="http://golfstrat.com/privacy-policy/">Privacy Policy</a></span></strong></div>
+</aside> </div><!-- #second .widget-area -->
+</div><!-- #supplementary --> <div id="footer-html">
+</div><!-- #footer-html -->
+<div id="footer-info">
+<div id="site-info">© 2016					<a href="http://golfstrat.com/" rel="home" title="GolfStrat">
+						GolfStrat					</a>
+</div><!-- #site-info -->
+<div id="site-generator">
+<a href="http://wp-ultra.com/" rel="generator">Admired Theme</a>
+</div>
+</div>
+</section>
+</footer><!-- #footer -->
+<div style="display:none">
+</div>
+<script src="http://apis.google.com/js/plusone.js?ver=4.4.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-includes/js/jquery/ui/spinner.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-includes/js/jquery/ui/effect-shake.min.js?ver=1.11.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-content/plugins/metro-share/assets/metroshare.js" type="text/javascript"></script>
+<script src="http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201632" type="text/javascript"></script>
+<script src="http://s.gravatar.com/js/gprofiles.js?ver=2016Augaa" type="text/javascript"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script src="http://golfstrat.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.4.4" type="text/javascript"></script>
+<script src="http://golfstrat.com/wp-includes/js/wp-embed.min.js?ver=4.4.4" type="text/javascript"></script>
+<script type="text/javascript">
+	jQuery('a[href^="#admired-top"]').live('click',function(event){
+		event.preventDefault();
+		var target_offset = jQuery(this.hash).offset() ? jQuery(this.hash).offset().top : 0;
+		jQuery('html, body').animate({scrollTop:target_offset}, 800);
+	});
+</script>
+<script async="" defer="" src="http://stats.wp.com/e-201632.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.9.7',blog:'48049722',post:'9619',tz:'-4',srv:'golfstrat.com'} ]);
+	_stq.push([ 'clickTrackerInit', '48049722', '9619' ]);
+</script>
+

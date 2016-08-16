@@ -26,7 +26,6 @@ def get_full_names(data):  # Takes the text of the raw data and creates an array
         x = datum.get_text()
         golfer_name.append(x.encode('UTF8'))
     golfer_name = split_and_strip(golfer_name, ',')
-    #del golfer_name[87]
     return golfer_name
 
 
@@ -41,7 +40,6 @@ def get_player_data():  # get raw player data to parse for player_id's
     r = urllib.urlopen('http://www.golfstrat.com').read()
     raw_data = BeautifulSoup(r, "html.parser").find_all('option')
     raw_data = raw_data[1:(len(raw_data) / 2)]
-    del raw_data[87]
     return raw_data
 
 
@@ -51,7 +49,6 @@ def get_golfstrat_id(data):  # use raw player data to put player_id's into an ar
     id_data = []
     for i in range(0, len(data)):
         id_data.append(int(data[i][1]))
-    #del id_data[87]
     return id_data
 
 
@@ -72,19 +69,23 @@ def get_stat(indice):
         print 'Getting Similar Course...'
 
     for k in golfstrat_id:
-        holding1 = []
-        holding2 = []
-        x = scrape('scrapedata%s.txt' % k).findAll('tbody')
-        x = x[4].find_all('center')
-        for i in x:
-            holding1.append(str(i).strip('<center> '))
-        for j in holding1:
-            z = str(j).strip(' </')
-            if z == '':
-                z = 150
-            holding2.append(z)
-        #print holding2
-        holding3.append(int(holding2[indice]))
+       try:
+            holding1 = []
+            holding2 = []
+            x = scrape('scrapedata%s.txt' % k).findAll('tbody')
+            x = x[4].find_all('center')
+            for i in x:
+                holding1.append(str(i).strip('<center> '))
+            for j in holding1:
+                z = str(j).strip(' </')
+                if z == '':
+                    z = 150
+                holding2.append(z)
+            #print holding2
+            holding3.append(int(holding2[indice]))
+       except IndexError:
+           del k
+
     return holding3
 
 player_data = get_player_data()  # gets raw data for use in parsing for player_id's
@@ -124,8 +125,11 @@ createGolferTable()
 z = len(golfstrat_id)
 
 for i in range(0,z):
-    addGolfer((first_names[i]+' '+last_names[i]),first_names[i],last_names[i],golfstrat_id[i],course_fit[i],similar_course[i],tournament_history[i],recent_performance[i],(golfstrat_id[i]+course_fit[i]+similar_course[i]+tournament_history[i]+recent_performance[i]))
-
+    try:
+        addGolfer((first_names[i]+' '+last_names[i]),first_names[i],last_names[i],golfstrat_id[i],course_fit[i],similar_course[i],tournament_history[i],recent_performance[i],(golfstrat_id[i]+course_fit[i]+similar_course[i]+tournament_history[i]+recent_performance[i]))
+    except IndexError:
+        print i
+        del i
 conn.commit()
 
 # saved formula for getting totals array
