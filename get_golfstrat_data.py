@@ -40,6 +40,7 @@ def get_player_data():  # get raw player data to parse for player_id's
     r = urllib.urlopen('http://www.golfstrat.com').read()
     raw_data = BeautifulSoup(r, "html.parser").find_all('option')
     raw_data = raw_data[1:(len(raw_data) / 2)]
+    del raw_data[41]
     return raw_data
 
 
@@ -69,28 +70,30 @@ def get_stat(indice):
         print 'Getting Similar Course...'
 
     for k in golfstrat_id:
-       try:
-            holding1 = []
-            holding2 = []
-            x = scrape('scrapedata%s.txt' % k).findAll('tbody')
-            x = x[4].find_all('center')
-            for i in x:
-                holding1.append(str(i).strip('<center> '))
-            for j in holding1:
-                z = str(j).strip(' </')
-                if z == '':
-                    z = 150
-                holding2.append(z)
-            #print holding2
-            holding3.append(int(holding2[indice]))
-       except IndexError:
-           del k
+        holding1 = []
+        holding2 = []
+        x = scrape('scrapedata%s.txt' % k).findAll('tbody')
+        x = x[4].find_all('center')
+        for i in x:
+            holding1.append(str(i).strip('<center> '))
+        for j in holding1:
+            z = str(j).strip(' </')
+            if z == '':
+                z = 150
+            holding2.append(z)
+        #print holding2
+        holding3.append(int(holding2[indice]))
 
     return holding3
 
 player_data = get_player_data()  # gets raw data for use in parsing for player_id's
+
+get_count = 0
+
 for i in player_data:
+    get_count += 1
     print i
+    print get_count
 
 complete_names = get_full_names(player_data)
 

@@ -28,7 +28,7 @@ def scrape(site): # basic scrape, takes URL as an argument
 def write_to_file(): # takes raw data from get_course_fit_info() and spitsout an array of course_fits
     for i in golfstrat_id:  # scrapes all player data from GolfStrat.com
         file = open("scrapedata%s.txt" % i, "w")
-        x = str(scrape('http://www.golfstrat.com/golfstrat-fantasy-edge-player-comparison/?compare=%s,159' % i))
+        x = str(scrape('http://www.golfstrat.com/golfstrat-fantasy-edge-player-comparison/?compare=%s,100' % i))
         file.write(x)
         file.close()
 
