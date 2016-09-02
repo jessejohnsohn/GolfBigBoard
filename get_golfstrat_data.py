@@ -133,6 +133,7 @@ for i in range(0,z):
     except IndexError:
         print i
         del i
+
 conn.commit()
 
 # saved formula for getting totals array

@@ -1,0 +1,29 @@
+<html>
+<head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+  $("#getData").click(function(event) {
+
+    $.getJSON('/rawdata', function(dat) {
+      ${'#stage'}.html('<p>' + dat.last_name[0] + '</p>');
+      ${'#stage'}.append('<p>' + dat.first_name[0] + '</p>')
+    });
+  });
+});
+</script>
+</head>
+
+<body>
+
+  <h1 style="color: red;">GolfBigBoard</h1>
+
+  <div id="stage">Hello</div>
+  <button id="getData">Get Data</button>
+
+</body>
+</html>
