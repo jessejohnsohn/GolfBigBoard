@@ -1,38 +1,47 @@
 from bs4 import BeautifulSoup
-import urllib
+import requests
 
-def split_and_strip(code,point):
-    code1 = []
-    for word in code:
-        code1.append(word.strip().split(point))
-    return code1
+def scrape(site): # basic scrape, takes URL as an argument
+    r = requests.get(site).text
+    return BeautifulSoup(r, "html.parser")
 
-def get_player_data(): # get raw player data to parse for player_id's
-    r = urllib.urlopen('http://www.golfstrat.com').read()
-    raw_data = BeautifulSoup(r, "html.parser").find_all('option')
+def get_raw_data(): # get raw player data to parse for player_id's
+    raw_data = scrape('http://www.golfstrat.com').find_all('option')
     raw_data = raw_data[1:(len(raw_data)/2)]
     return raw_data
 
-def get_golfstrat_id(data): # use raw player data to put player_id's in an array
-    for i in range(0,len(data)):
-        data[i] = str(data[i]).strip().split('"')
-    id_data = []
-    for i in range(0,len(data)):
-        id_data.append(data[i][1])
-    return id_data
+def get_names_and_power_ranking(raw_data): # use raw player data to put player_id's in an array
+    players = []
 
-def scrape(site): # basic scrape, takes URL as an argument
-    r = urllib.urlopen(site).read()
-    return BeautifulSoup(r, "html.parser")
+    for datum in raw_data:
+        player = {}
+        power_ranking_raw = str(datum).strip().split('"')
+        power_ranking = power_ranking_raw[1]
+        full_name = datum.get_text().encode('UTF8')
+        first_name = str(full_name).strip().split(',')[1]
+        last_name = str(full_name).strip().split(',')[0]
+        player["First Name"] = first_name
+        player["Last Name"] = last_name
+        player["Power Ranking"] = power_ranking
+        players.append(player)
 
-def write_to_file(): # takes raw data from get_course_fit_info() and spitsout an array of course_fits
-    for i in golfstrat_id:  # scrapes all player data from GolfStrat.com
-        file = open("scrapedata%s.txt" % i, "w")
-        x = str(scrape('http://www.golfstrat.com/golfstrat-fantasy-edge-player-comparison/?compare=%s,100' % i))
+    return players
+
+def write_to_file(players):
+    root = 'http://www.golfstrat.com/golfstrat-fantasy-edge-player-comparison/'
+    for player in players:
+        print("Downloading information for %s %s" % (player["First Name"], player["Last Name"]))
+        ranking = player["Power Ranking"]
+        ranking_low = len(players)
+        file = open("scrapedata%s.txt" % ranking, "w")
+        if ranking < ranking_low:
+            x = str(scrape(root + '?compare=%s,%d' % (ranking, ranking_low)))
+        else:
+            x = str(scrape(root + '?compare=%s,%d' % (ranking_low, 1)))
         file.write(x)
         file.close()
+        print("Done!\n")
 
-player_data = get_player_data() # gets raw data for use in parsing for player_id's
-golfstrat_id = get_golfstrat_id(player_data) #gets player_id's -- important for iterating URL
+players = get_names_and_power_ranking(get_raw_data())
 
-write_to_file()
+write_to_file(players)
